@@ -19,12 +19,7 @@ Generate some keys using <https://github.com/cathugger/mkp224o> or import<br>
 existing ones and put them in `keys/` directory
 
 * Choose which socket to expose<br>
-Set it in env vars<br>
-```bash
-SRC_PORT=<external port>
-DST_HOST=<destination host>
-```
-... or add them directly to `src/torrc` file
+Set it in `hosts.json`
 
 * Build and run container<br>
 `sudo make`<br>
