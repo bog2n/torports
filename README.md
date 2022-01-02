@@ -11,6 +11,9 @@ you are behind NAT.
 Usage
 -----
 
+* Create directories
+`./configure.sh`
+
 * Generate keys
 Generate some keys using <https://github.com/cathugger/mkp224o> or import
 existing ones and put them in `keys/` directory
