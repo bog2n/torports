@@ -5,9 +5,11 @@
 	<link href=style.css rel=stylesheet>
 </head>
 <body>
+<pre>
 <?php
-	echo exec("cat /tmp/hostname")."<br>";
-	echo exec("cat /tmp/ports");
+	echo file_get_contents("/tmp/hostname")."<br>";
+	echo file_get_contents("/tmp/ports");
 ?>
+</pre>
 </body>
 </html>

@@ -1,2 +1,0 @@
-HiddenServiceDir /srv/
-HiddenServicePort ${SRC_PORT} ${DST_HOST}
