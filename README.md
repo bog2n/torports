@@ -11,19 +11,21 @@ you are behind NAT.
 Usage
 -----
 
-* Create directories
+* Create directories<br>
 `./configure.sh`
 
-* Generate keys
-Generate some keys using <https://github.com/cathugger/mkp224o> or import
+* Generate keys<br>
+Generate some keys using <https://github.com/cathugger/mkp224o> or import<br>
 existing ones and put them in `keys/` directory
 
-* Choose which socket to expose
-Set it in env vars
-`SRC_PORT=<external port>
-DST_HOST=<destination host>`
+* Choose which socket to expose<br>
+Set it in env vars<br>
+```bash
+SRC_PORT=<external port>
+DST_HOST=<destination host>
+```
 ... or add them directly to `src/torrc` file
 
-* Build and run container
-`sudo make`
+* Build and run container<br>
+`sudo make`<br>
 Visit `<host ip>:8080` for basic overview of Tor-Ports
